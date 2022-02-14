@@ -2,8 +2,7 @@ import { readFileSync } from "fs";
 import { day01Part01 } from "./day-01-part1";
 import { day01Part02 } from "./day-01-part2";
 
-var inputDataPuzzle = readFileSync("src/puzzle.txt", "utf-8").split("\r\n");
-
+var inputDataPuzzle = readFileSync("src/data/puzzle.txt", "utf-8").split("\r\n");
 
 var newInputDataPuzzle = inputDataPuzzle.map(Number);
 
