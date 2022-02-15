@@ -1,4 +1,4 @@
-import { day01Part01 } from "../day-01-part1";
+import { day01Part01 } from "../day-01/day-01-part1";
 
 describe('Counting the number of increases', () => {
     it('should check whether the number of increases matches the answer', () => {
