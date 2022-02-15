@@ -1,16 +1,21 @@
-var submarine = {
-    horizontalPosition: 0,
-    depthPosition: 0,
+export class Submarine {
+  horizontalPosition: number;
+  depthPosition: number;
 
-    forward: function (forwardStep: number) {
-        this.horizontalPosition = this.horizontalPosition + forwardStep
-    },
+  constructor() {
+    this.horizontalPosition = 0;
+    this.depthPosition = 0;
+  }
 
-    down: function (downStep: number) {
-        this.depthPosition = this.depthPosition + downStep
-    },
+  forward(forwardStep: number) {
+    return (this.horizontalPosition = this.horizontalPosition + forwardStep);
+  }
 
-    up: function (upStep: number) {
-        this.depthPosition = this.depthPosition - upStep
-    }
+  down(downStep: number) {
+    return (this.depthPosition = this.depthPosition + downStep);
+  }
+
+  up(upStep: number) {
+    return (this.depthPosition = this.depthPosition - upStep);
+  }
 }

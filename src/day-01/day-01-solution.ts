@@ -1,7 +1,6 @@
-import { readFileSync } from "fs";
 import { day01Part01 } from "./day-01-part1";
 import { day01Part02 } from "./day-01-part2";
-import { prepareData } from "./prepare-data-01";
+import { prepareData } from "../prepare-data";
 
 var inputDataPuzzle = prepareData("src/data/puzzle.txt", "utf-8");
 
