@@ -2,13 +2,11 @@ export class SubmarineAim {
   horizontalPosition: number;
   depthPosition: number;
   aim: number;
-  depthFinal: number;
 
   constructor() {
     this.horizontalPosition = 0;
     this.depthPosition = 0;
     this.aim = 0;
-    this.depthFinal = 0;
   }
 
   forward(forwardStep: number) {
