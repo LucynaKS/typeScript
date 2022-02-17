@@ -1,5 +1,5 @@
 import { readFileSync } from "fs";
-import { navigationParameter } from "./day-02-part1";
+import { navigationParameter } from "../interfaces/navigation-parameter";
 
 export function prepareData(filePath: string, encoding: BufferEncoding) {
   var navigation = readFileSync(filePath, encoding)
@@ -12,5 +12,5 @@ export function prepareData(filePath: string, encoding: BufferEncoding) {
       };
     });
   console.log(navigation);
-  return navigation
+  return navigation;
 }
