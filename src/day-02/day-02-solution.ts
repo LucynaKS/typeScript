@@ -7,5 +7,5 @@ var inputDataNavigation = prepareData("src/data/position.txt", "utf-8");
 var resultDay01Part01 = day02Part01(inputDataNavigation);
 var resultDay01Part02 = day02Part02(inputDataNavigation);
 
-console.log("Answer for challenge day1 part 1 = " + resultDay01Part01);
-console.log("Answer for challenge day1 part 1 = " + resultDay01Part02);
+console.log("Answer for challenge day2 part 1 = " + resultDay01Part01);
+console.log("Answer for challenge day2 part 2 = " + resultDay01Part02);
