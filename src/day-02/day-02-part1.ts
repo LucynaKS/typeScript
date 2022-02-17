@@ -1,5 +1,4 @@
 import { Submarine } from "./submarine";
-import { prepareData } from "./prepare-data-02";
 import { navigationParameter } from "../interfaces/navigation-parameter";
 
 export function day02Part01(inputData: navigationParameter[]) {
@@ -17,8 +16,3 @@ export function day02Part01(inputData: navigationParameter[]) {
   console.log(position);
   return position;
 }
-
-// export interface navigationParameter {
-//   direction: string;
-//   distance: number;
-// }

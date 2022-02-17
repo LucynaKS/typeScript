@@ -16,8 +16,3 @@ export function day02Part02(inputData: navigationParameter[]) {
   console.log(position);
   return position;
 }
-
-//   export interface navigationParameter {
-//     direction: string;
-//     distance: number;
-//   }
