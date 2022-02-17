@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "run": "ts-node src/day-02/prepare-data-02"
+    "run": "ts-node src/day-02/day-02-solution"
   },
   "dependencies": {
     "node-fetch": "^3.2.0"
