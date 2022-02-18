@@ -1,4 +1,4 @@
-import { day02Part02 } from "../../day-02/day-02-part2";
+import { day02Part0202 } from "../../day-02/day-02-part2-2";
 
 describe("Horizontal position, depth position and aim", () => {
   it("should whether multiplying the final horizontal position by the final depth gives us the predicted result", () => {
@@ -30,6 +30,6 @@ describe("Horizontal position, depth position and aim", () => {
     ];
     const result = 900;
 
-    expect(day02Part02(navigation)).toBe(result);
+    expect(day02Part0202(navigation)).toBe(result);
   });
 });
